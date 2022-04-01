@@ -7,5 +7,6 @@ public class Lab1 {
 
         return greeting;
         //hej
+        //Hej igen
     }
 }
