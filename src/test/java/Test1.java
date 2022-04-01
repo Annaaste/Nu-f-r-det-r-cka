@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
-
+import org.junit.jupiter.api.DisplayName;
 
 public class Test1 {
 
@@ -11,6 +11,7 @@ public class Test1 {
 
     }
     @Test
+    @DisplayName("Are the strings equal")
     public void checkString() {
         Assertions.assertEquals("Jag heter Kalle och är 27 år", Lab1.hello());
     }
